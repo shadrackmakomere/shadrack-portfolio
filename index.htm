@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Shadrack Makomere Amboka - Portfolio</title>
+<style>
+  @page {
+    size: A4;
+    margin: 15mm 15mm 15mm 15mm;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    color: #2b2b2b;
+    line-height: 1.45;
+    font-size: 10.5pt;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+  }
+
+  /* Header Styles */
+  header {
+    border-bottom: 2px solid #1a365d;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+
+  h1 {
+    font-size: 20pt;
+    color: #1a365d;
+    margin: 0 0 4px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .subtitle {
+    font-size: 11pt;
+    font-weight: 600;
+    color: #2b6cb0;
+    margin-bottom: 6px;
+  }
+
+  .contact-info {
+    font-size: 9.5pt;
+    color: #4a5568;
+  }
+
+  .contact-info a {
+    color: #2b6cb0;
+    text-decoration: none;
+  }
+
+  /* Section Styles */
+  section {
+    margin-bottom: 14px;
+  }
+
+  h2 {
+    font-size: 12pt;
+    color: #1a365d;
+    border-bottom: 1px solid #cbd5e0;
+    padding-bottom: 3px;
+    margin: 12px 0 8px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  h3 {
+    font-size: 10.5pt;
+    color: #2d3748;
+    margin: 8px 0 3px 0;
+  }
+
+  p {
+    margin: 0 0 6px 0;
+    text-align: justify;
+  }
+
+  ul {
+    margin: 0 0 8px 0;
+    padding-left: 18px;
+  }
+
+  li {
+    margin-bottom: 4px;
+  }
+
+  /* Case Study Box Styling */
+  .case-study {
+    background-color: #f7fafc;
+    border-left: 3px solid #2b6cb0;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+  }
+
+  .case-study h3 {
+    margin-top: 0;
+    color: #1a365d;
+  }
+
+  /* Experience Header Layout */
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #2d3748;
+  }
+
+  .job-title {
+    color: #1a365d;
+  }
+
+  .job-dates {
+    color: #718096;
+    font-size: 9.5pt;
+  }
+
+  /* Tech Stack Grid */
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .grid-item {
+    background: #edf2f7;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 9.5pt;
+  }
+
+  .grid-item strong {
+    color: #1a365d;
+  }
+
+  /* PDF Print Specific Rules */
+  @media print {
+    body {
+      width: 100%;
+    }
+    .page-break {
+      page-break-before: always;
+    }
+    .case-study, .job-block {
+      page-break-inside: avoid;
+    }
+  }
+</style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Shadrack Makomere Amboka</h1>
+    <div class="subtitle">Quantitative Accountant & Financial Data Analyst</div>
+    <div class="contact-info">
+      Imara Daima, Nairobi, Kenya | +254 712 560 935 | shadrackmakomere@gmail.com <br>
+      LinkedIn: linkedin.com/in/shadrackmakomere | Portfolio: github.com/shadrackmakomere
+    </div>
+  </header>
+
+  <!-- PROFILE -->
+  <section>
+    <h2>Professional Profile</h2>
+    <p>Quantitative and data-driven accounting professional with over two years of hands-on experience across accounting operations, payroll administration, receivables management, statutory compliance, and financial reporting. Combines CPA Advanced Level technical rigor with a BSc in Mathematics to automate reporting workflows, strengthen internal controls, and transform raw financial data into actionable management intelligence using Excel, Power BI, Python, QuickBooks, and SAP.</p>
+  </section>
+
+  <!-- CORE COMPETENCIES -->
+  <section>
+    <h2>Core Competencies & Tech Stack</h2>
+    <div class="grid-container">
+      <div class="grid-item">
+        <strong>Financial Operations:</strong> Statement Preparation, GL Management, A/R & A/P, Reconciliations, Internal Controls.
+      </div>
+      <div class="grid-item">
+        <strong>Statutory Compliance:</strong> KRA iTax, PAYE, VAT, Withholding Tax (WHT), NSSF, SHIF, Housing Levy.
+      </div>
+      <div class="grid-item">
+        <strong>Data & Automation:</strong> Excel (Power Query, VBA), Power BI (DAX), Python, R, Automated Workflows.
+      </div>
+      <div class="grid-item">
+        <strong>ERP & Accounting Software:</strong> QuickBooks Online & Desktop, SAP Financial Accounting.
+      </div>
+    </div>
+  </section>
+
+  <!-- CASE STUDIES -->
+  <section>
+    <h2>Selected Case Studies & Achievements</h2>
+    
+    <div class="case-study">
+      <h3>1. Financial Record Digitization & Reporting Automation</h3>
+      <p><strong>Context:</strong> John Paul II Mixed Secondary School required enhanced operational efficiency and faster monthly financial closings.</p>
+      <p><strong>Action:</strong> Redesigned paper-based ledger systems into structured digital databases. Built automated Power BI and Excel dashboards linked directly to operational schedules for real-time tracking of revenue, expenses, and budget variances.</p>
+      <p><strong>Impact:</strong> Reduced financial reconciliation processing time by <strong>~30%</strong> and eliminated manual entry errors, significantly accelerating monthly reporting cycles.</p>
+    </div>
+
+    <div class="case-study">
+      <h3>2. Payroll Administration & Statutory Compliance System</h3>
+      <p><strong>Context:</strong> Managed monthly payroll execution and statutory remittances for organizational staff.</p>
+      <p><strong>Action:</strong> Designed an automated Excel payroll engine incorporating Kenyan tax bands and statutory formula logic (PAYE, NSSF, SHIF). Standardized monthly schedule outputs for seamless KRA iTax batch uploads.</p>
+      <p><strong>Impact:</strong> Achieved <strong>100% on-time statutory filing compliance</strong> with zero penalties, while reducing monthly payroll preparation cycles from days to hours.</p>
+    </div>
+
+    <div class="case-study">
+      <h3>3. Student Receivables & Internal Audit Preparation</h3>
+      <p><strong>Context:</strong> Managed student fee receivables, billing allocations, and ledger reconciliations.</p>
+      <p><strong>Action:</strong> Structured an aged receivables matrix, standardized payment receipting protocols, and established structured audit documentation files.</p>
+      <p><strong>Impact:</strong> Maintained clean, audit-ready ledger schedules, supporting successful internal and external audit reviews with zero material discrepancies.</p>
+    </div>
+  </section>
+
+  <!-- PROFESSIONAL EXPERIENCE -->
+  <section>
+    <h2>Professional Work Experience</h2>
+    
+    <div class="job-block" style="margin-bottom: 10px;">
+      <div class="job-header">
+        <span class="job-title">Accounting Clerk — John Paul II Mixed Secondary School</span>
+        <span class="job-dates">May 2021 – Present</span>
+      </div>
+      <ul>
+        <li>Process monthly payroll and ensure accurate and timely remittance of statutory deductions.</li>
+        <li>Manage student receivables by maintaining billing records, allocating payments, issuing receipts, and reconciling outstanding balances.</li>
+        <li>Prepare monthly financial statements, budget forecasts, and management reports to support leadership decision-making.</li>
+        <li>Perform regular account reconciliations and investigate variances to maintain ledger integrity.</li>
+        <li>Support procurement, inventory tracking, and implementation of internal financial controls.</li>
+        <li>Prepare financial schedules and documentation for internal and external audit activities.</li>
+      </ul>
+    </div>
+
+    <div class="job-block">
+      <div class="job-header">
+        <span class="job-title">Intern — Ministry of Education</span>
+        <span class="job-dates">October 2019 – October 2020</span>
+      </div>
+      <ul>
+        <li>Supported implementation of departmental policies, project monitoring, and reporting activities.</li>
+        <li>Assisted with quantitative data analysis, documentation, and executive presentation preparation.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- EDUCATION & QUALIFICATIONS -->
+  <section>
+    <h2>Education & Professional Qualifications</h2>
+    <ul>
+      <li><strong>CPA Advanced Level:</strong> KASNEB | <em>Passed</em> (AFR, AAA, AT, AMA, AFM)</li>
+      <li><strong>BSc in Mathematics:</strong> Masinde Muliro University of Science and Technology | <em>Second Class Honors (Upper Division)</em></li>
+    </ul>
+  </section>
+
+  <!-- REFERENCES -->
+  <section>
+    <h2>References</h2>
+    <p>
+      <strong>Mr. Darius Mogaka Ogutu</strong> — Director, University Education, Ministry of Education | Mobile: 0722365980<br>
+      <strong>Ms. Abigael Maiyo</strong> — Deputy Principal, John Paul II Mixed Secondary School | Mobile: 0724747578
+    </p>
+  </section>
+
+</body>
+</html>
